@@ -1,0 +1,364 @@
+[
+    {
+        "prisonerNumber": "G2911GD",
+        "firstName": "Chris",
+        "lastName": "  Atkinson",
+        "dateOfBirth": "10 Jun 1969",
+        "enteredPrison": "28 May 2024",
+        "releaseDate": "1 Jul 2026",
+        "prisonId": "BXI",
+        "cellLocation": "A-1-039",
+        "legalStatus": "SENTENCED",
+        "recall": false,
+        "indeterminateSentence": false,
+        "planStatus": "Due",
+        "needsSupport": [
+            {
+                "needsSupportCategory": "Attention, organising and time management",
+                "needsSupportDescription": "Print out their timetable in large font each week.<br>They are allowed a wrist watch and alarm clock.<br>Prompt them for their next activity if possible.<br>Break tasks downs and give enough time to do them.<br>Give them time to understand instructions - break these down into no more than 3 steps at time.<br>Limit distractions.",
+                "needsSupportDate": "4 Jan 2025",
+                "needsSupportAuthor": "J. Smith"
+            }
+        ],
+        "needsChallenges": [
+            {
+                "needsChallengeCategory": "Attention, organising and time management",
+                "needsChallengeDescription": "Finds it hard to manage their time.<br>Worries they will be late and becomes anxious.<br>When they are late can get angry if it's made an issue.",
+                "needsChallengeDate": "12 Apr 2025",
+                "needsChallengeAuthor": "J. Smith"
+            },
+            {
+                "needsChallengeCategory": "Attention, organising and time management",
+                "needsChallengeDescription": "Needs help focussing to plan and finish  an activity.<br>Can get distracted and try to task switch and not finish.",
+                "needsChallengeDate": "27 Mar 2025",
+                "needsChallengeAuthor": "J. Smith"
+            },
+            {
+                "needsChallengeCategory": "Attention, organising and time management",
+                "needsChallengeDescription": "Finds it hard to follow lengthy instructions.<br>Gets frustrated if they do not understand what they need to do.<br>Doesn't feel confident to speak up.",
+                "needsChallengeDate": "27 Mar 2025",
+                "needsChallengeAuthor": "J. Smith"
+            },
+            {
+                "needsChallengeCategory": "Literacy skills",
+                "needsChallengeDescription": "Finds it hard to write quickly, has poor grip.<br>Can get frustrated if needs to note things down quickly.",
+                "needsChallengeDate": "27 Mar 2025",
+                "needsChallengeAuthor": "J. Smith"
+            }
+        ],
+        "needsStrengths": [
+            {
+                "needsStrengthCategory": "Attention, organising and time management",
+                "needsStrengthDescription": "Has a good sense of humour<br>Is close to their children and enjoyed reading with them",
+                "needsStrengthDate": "4 Jan 2025",
+                "needsStrengthAuthor": "J. Smith"
+            }
+        ],
+        "needsALNscreener": [
+            {
+                "needsALNscreenerCategory": "Attention, organising and time management",
+                "needsALNscreenerDescription": "Challenges: Writing - Alphabet ordering",
+                "needsALNscreenerDate": "28 Sep 2025",
+                "needsALNscreenerAuthor": "M. Warner"
+            },
+            {
+                "needsALNscreenerCategory": "Attention, organising and time management",
+                "needsALNscreenerDescription": "Strengths: Reading - Language decoding",
+                "needsALNscreenerDate": "28 Sep 2025",
+                "needsALNscreenerAuthor": "M. Warner"
+            }
+        ],
+        "screener": [
+            {
+                "areaOfNeed": "Cognition and Learning",
+                "categoryOfNeed": [
+                    {
+                        "categoryName": "Literacy skills",
+                        "challenges": [
+                            {
+                                "challengeName": "Reading"
+                            },
+                            {
+                                "challengeName": "Writing"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "areaOfNeed": "Communication and Interaction",
+                "categoryOfNeed": [
+                    {
+                        "categoryName": "Language and communication skills",
+                        "challenges": [
+                            {
+                                "challengeName": "Active listening"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "areaOfNeed": "Social, Emotional and Mental Health",
+                "categoryOfNeed": [
+                    {
+                        "categoryName": "Emotions and feelings",
+                        "challenges": [
+                            {
+                                "challengeName": "Emotional control"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "prisonerNumber": "A8545DY",
+        "firstName": "Carter",
+        "lastName": "  Andrew",
+        "dateOfBirth": "17 Aug 1976",
+        "enteredPrison": "28 May 2024",
+        "releaseDate": "1 Jul 2026",
+        "prisonId": "BXI",
+        "cellLocation": "A-1-039",
+        "legalStatus": "SENTENCED",
+        "recall": false,
+        "indeterminateSentence": false,
+        "planStatus": "Due",
+        "screener": [
+            {
+                "areaOfNeed": "Cognition and learning",
+                "categoryOfNeed": [
+                    {
+                        "categoryName": "Literacy skills",
+                        "challenges": [
+                            {
+                                "challengeName": "Reading"
+                            },
+                            {
+                                "challengeName": "Writing"
+                            }
+                        ]
+                    },
+                    {
+                        "categoryName": "Maths skills",
+                        "challenges": [
+                            {
+                                "challengeName": "Arithmetic"
+                            },
+                            {
+                                "challengeName": "Maths confidence"
+                            },
+                            {
+                                "challengeName": "Fractions and percentages"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "areaOfNeed": "Physical and Sensory",
+                "categoryOfNeed": [
+                    {
+                        "categoryName": "Sensory",
+                        "challenges": [
+                            {
+                                "challengeName": "Listening"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "prisonerNumber": "A8517DY",
+        "firstName": "Cheryl",
+        "lastName": "  Green",
+        "dateOfBirth": "1 Jan 2001",
+        "prisonId": "BXI",
+        "cellLocation": "RECP",
+        "legalStatus": "SENTENCED",
+        "recall": false,
+        "indeterminateSentence": false
+    },
+    {
+        "prisonerNumber": "A8560DY",
+        "firstName": "Nancy",
+        "lastName": "  Walker",
+        "dateOfBirth": "1 Jan 2001",
+        "prisonId": "BXI",
+        "cellLocation": "RECP",
+        "legalStatus": "SENTENCED",
+        "recall": false,
+        "indeterminateSentence": false
+    },
+    {
+        "prisonerNumber": "A8659DY",
+        "firstName": "Anthony",
+        "lastName": " Alexander",
+        "dateOfBirth": "1 Jan 2001",
+        "prisonId": "BXI",
+        "cellLocation": "RECP",
+        "legalStatus": "SENTENCED",
+        "recall": false,
+        "indeterminateSentence": false
+    },
+    {
+        "prisonerNumber": "A8494DY",
+        "firstName": "Lori",
+        "lastName": " Armstrong",
+        "dateOfBirth": "1 Jan 2005",
+        "prisonId": "BXI",
+        "cellLocation": "RECP",
+        "legalStatus": "SENTENCED",
+        "recall": false,
+        "indeterminateSentence": false,
+        "planStatus": "Due",
+        "screener": [
+            {
+                "areaOfNeed": "Cognition and learning",
+                "categoryOfNeed": [
+                    {
+                        "categoryName": "Literacy skills",
+                        "challenges": [
+                            { "challengeName": "Reading" },
+                            { "challengeName": "Spelling" },
+                            { "challengeName": "Writing" },
+                            { "challengeName": "Alphabet ordering" },
+                            { "challengeName": "Reading comprehension" },
+                            { "challengeName": "Reading (visual discrimination)" },
+                            { "challengeName": "Tracking" },
+                            { "challengeName": "Language decoding" }
+                        ]
+                    },
+                    {
+                        "categoryName": "Maths skills",
+                        "challenges": [
+                            { "challengeName": "Speed of calculation" },
+                            { "challengeName": "Arithmetic" },
+                            { "challengeName": "Estimation" },
+                            { "challengeName": "Maths literacy" },
+                            { "challengeName": "Maths confidence" },
+                            { "challengeName": "Fractions and percentages" },
+                            { "challengeName": "Word-based problems" },
+                            { "challengeName": "Money management" },
+                            { "challengeName": "Number recall" },
+                            { "challengeName": "Number sequencing" }
+                        ]
+                    },
+                    {
+                        "categoryName": "Attention, Organising & Time Management",
+                        "challenges": [
+                            { "challengeName": "Focusing" },
+                            { "challengeName": "Tidiness" },
+                            { "challengeName": "Finishing tasks" },
+                            { "challengeName": "Problem solving" },
+                            { "challengeName": "Time allocation/prioritisation" },
+                            { "challengeName": "Self-organised (routine)" },
+                            { "challengeName": "Task initiation" },
+                            { "challengeName": "Forward planning" },
+                            { "challengeName": "Attention to detail " },
+                            { "challengeName": "Task switching" }
+                        ]
+                    },
+                    {
+                        "categoryName": "Memory",
+                        "challenges": [
+                            { "challengeName": "Memory" }
+                        ]
+                    }
+                ]
+            },
+            {
+                "areaOfNeed": "Communication and Interaction",
+                "categoryOfNeed": [
+                    {
+                        "categoryName": "Language and communication skills",
+                        "challenges": [
+                            { "challengeName": "Turn-taking" },
+                            { "challengeName": "Language fluency" },
+                            { "challengeName": "Social adaptability" },
+                            { "challengeName": "Communication" },
+                            { "challengeName": "Extroversion/Introversion" },
+                            { "challengeName": "Social nuances" },
+                            { "challengeName": "Speaking" },
+                            { "challengeName": "Word finding" },
+                            { "challengeName": "Active listening" },
+                            { "challengeName": "Non-verbal communication" },
+                            { "challengeName": "People person" }
+                        ]
+                    }
+                ]
+            },
+            {
+                "areaOfNeed": "Physical and Sensory",
+                "categoryOfNeed": [
+                    {
+                        "categoryName": "Physical skills and coordination",
+                        "challenges": [
+                            { "challengeName": "Handwriting" },
+                            { "challengeName": "Balance" },
+                            { "challengeName": "Fine motor skills" },
+                            { "challengeName": "Learning new skills" },
+                            { "challengeName": "Sporting ball skills" },
+                            { "challengeName": "Dual tasking" },
+                            { "challengeName": "Folding, packing, and sorting" },
+                            { "challengeName": "Stamina" },
+                            { "challengeName": "Grasp" },
+                            { "challengeName": "Spatial awareness" }
+                        ]
+                    },
+                    {
+                        "categoryName": "Sensory",
+                        "challenges": [
+                            { "challengeName": "Auditory Discrimination" },
+                            { "challengeName": "Creativity" },
+                            { "challengeName": "Listening" },
+                            { "challengeName": "Sensory processing" },
+                            { "challengeName": "Visual skills" },
+                            { "challengeName": "Visual-Spatial Skills" }
+                        ]
+                    },
+                    {
+                        "categoryName": "Visual impairment",
+                        "challenges": [
+                            { "challengeName": "Visual impairment" }
+                        ]
+                    },
+                    {
+                        "categoryName": "Hearing impairment",
+                        "challenges": [
+                            { "challengeName": "Hearing impairment" }
+                        ]
+                    }
+                ]
+            },
+            {
+                "areaOfNeed": "Social, Emotional and Mental Health",
+                "categoryOfNeed": [
+                    {
+                        "categoryName": "Emotions and feelings",
+                        "challenges": [
+                            { "challengeName": "Restfulness" },
+                            { "challengeName": "Reading emotions" },
+                            { "challengeName": "Empathy" },
+                            { "challengeName": "Impulse control" },
+                            { "challengeName": "Emotional control" },
+                            { "challengeName": "Managing change (adaptability)" },
+                            { "challengeName": "Confidence" },
+                            { "challengeName": "Calm" }
+                        ]
+                    },
+                    {
+                        "categoryName": "Mental Health",
+                        "challenges": [
+                            { "challengeName": "Mental health conditions" }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
