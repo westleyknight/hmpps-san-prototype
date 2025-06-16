@@ -122,11 +122,13 @@ module.exports = function(router) {
       needsSupportCategory: req.session.data["san-"+v+"-"+ref+"-support-category"],
       needsSupportDescription: needsSupportDescHTML,
       needsSupportDate: getFormattedDate(),
-      needsSupportDate: "13 Jun 2025",
       needsSupportAuthor: "W. Knight"
     };
 
     let thisprisoner = req.session.data['prisoners'].find(p => p.prisonerNumber === ref);
+    if (!Array.isArray(thisprisoner.needsSupport)) {
+      thisprisoner.needsSupport = [];
+    }
     thisprisoner.needsSupport.push(newSupportEntry);
     delete req.session.data["san-"+v+"-"+ref+"-support-category"];
     delete req.session.data["san-"+v+"-"+ref+"-support-desc"];
@@ -168,9 +170,9 @@ module.exports = function(router) {
     };
 
     let thisprisoner = req.session.data['prisoners'].find(p => p.prisonerNumber === ref);
-    /*if (!Array.isArray(thisprisoner.needsChallenges)) {
+    if (!Array.isArray(thisprisoner.needsChallenges)) {
       thisprisoner.needsChallenges = [];
-    }*/
+    }
     thisprisoner.needsChallenges.push(newChallengeEntry);
     delete req.session.data["san-"+v+"-"+ref+"-challenge-category"];
     delete req.session.data["san-"+v+"-"+ref+"-challenge-desc"];
@@ -212,9 +214,9 @@ module.exports = function(router) {
     };
 
     let thisprisoner = req.session.data['prisoners'].find(p => p.prisonerNumber === ref);
-    /*if (!Array.isArray(thisprisoner.needsStrengths)) {
+    if (!Array.isArray(thisprisoner.needsStrengths)) {
       thisprisoner.needsStrengths = [];
-    }*/
+    }
     thisprisoner.needsStrengths.push(newStrengthEntry);
     delete req.session.data["san-"+v+"-"+ref+"-strength-category"];
     delete req.session.data["san-"+v+"-"+ref+"-strength-desc"];
@@ -222,7 +224,7 @@ module.exports = function(router) {
     res.redirect("/"+v+"/san/"+ref+"/profile");
   });
 
-  
+
   module.exports = router;
 
 }
