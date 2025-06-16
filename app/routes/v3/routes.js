@@ -121,11 +121,8 @@ module.exports = function(router) {
     let newSupportEntry = {
       needsSupportCategory: req.session.data["san-"+v+"-"+ref+"-support-category"],
       needsSupportDescription: needsSupportDescHTML,
-<<<<<<< v3
       needsSupportDate: getFormattedDate(),
-=======
       needsSupportDate: "13 Jun 2025",
->>>>>>> main
       needsSupportAuthor: "W. Knight"
     };
 
@@ -138,7 +135,6 @@ module.exports = function(router) {
   });
 
 
-<<<<<<< v3
 /*****************
  * Add challenge *
  *****************/
@@ -226,9 +222,7 @@ module.exports = function(router) {
     res.redirect("/"+v+"/san/"+ref+"/profile");
   });
 
-
-=======
->>>>>>> main
+  
   module.exports = router;
 
 }
