@@ -17,17 +17,17 @@
   
     <div class="govuk-grid-column-three-quarters">
       <form method="post">
-        <span class="govuk-caption-l">Add support strategy</span>
+        <span class="govuk-caption-l">Add challenge</span>
         
         {{ govukTextarea({
-          id: "san-"+v+"-"+ref+"-support-desc",
-          name: "san-"+v+"-"+ref+"-support-desc",
+          id: "san-"+v+"-"+ref+"-challenge-desc",
+          name: "san-"+v+"-"+ref+"-challenge-desc",
           label: {
-            text: "Description of support strategy for "+data["san-"+v+"-"+ref+"-support-category"],
+            text: "Description of challenge for "+data["san-"+v+"-"+ref+"-challenge-category"],
             isPageHeading: true,
             classes: "govuk-fieldset__legend--l"
           },
-          value: data["san-"+v+"-"+ref+"-support-desc"]
+          value: data["san-"+v+"-"+ref+"-challenge-desc"]
         }) }}
 
         {{ govukButton({
